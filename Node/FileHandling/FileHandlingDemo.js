@@ -1,7 +1,9 @@
 const fs = require("fs");
 const os = require("os")
 
+//os has our system conf
 console.log(os.cpus.length)
+
 //To write if we again run this it will override the value
 //sync
 fs.writeFileSync("./text.txt","hello there")
